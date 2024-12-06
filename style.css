@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #9d6faf;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+#header-container-logo {
+  background-color: #9d6faf5b;
+  border-radius: 90px;
+  margin-bottom: 15px;
+  animation: pulse 2.5s infinite;
+}
+
+#header-logo {
+  max-width: 120px;
+}
+
+#header nav {
+  display: flex;
+  gap: 40px;
+}
+
+#header nav a {
+  text-decoration: none;
+  color: #9d6faf;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  font-size: 1.2em;
+}
+
+#header nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #9d6faf;
+  transition: width 300ms ease-in-out;
+}
+
+#header nav a:hover {
+  color: #6e4b84;
+  transform: translateY(-2px);
+}
+
+#header nav a:hover::after {
+  width: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Nouveau CSS pour la section main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Structure des sections principales */
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #9d6faf;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #9d6faf;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+  margin: 20px 0;
+}
+
+/* Styles pour le bouton */
+button {
+  background-color: #9d6faf;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 300ms ease, transform 200ms ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #9d6faf5b;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style pour afficher le numéro de téléphone */
+#phone-number {
+  display: none;
+  font-size: 1.5em;
+  color: #9d6faf;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+}
+
+/* Section Qui suis-je */
+section article h2 {
+  color: #9d6faf;
+}
+
+/* Section spécifique pour les autres titres */
+strong {
+  color: #6e4b84;
+}
+
+em {
+  font-style: italic;
+  color: #9d6faf;
+}
+.background {
+  background-color: #9d6faf5b;
+}
