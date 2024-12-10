@@ -1,0 +1,129 @@
+@media screen and (max-width:1500px) {
+#nathalie{
+    max-width: 50%;
+}
+#section1, #section2{
+    margin: 10% 0;
+}
+#section-cabinet{
+    flex-direction: column-reverse;
+}
+#cabinet{
+    max-width: 90%;
+}
+}
+
+@media screen and (max-width:1280px) {
+    #presentation-container-logo{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    #presentation-logo{
+        max-width: 50%;
+    }
+    #presentation, #section1, #section2, .sections-seance{
+        flex-direction: column;
+    }
+    #nathalie{
+        max-width: 80%;
+    }
+
+    #section1,  #section2{
+        margin: 5%;
+    }
+
+    #section2 section{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.4em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  
+    button {
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+
+    #cabinet{
+        max-width: 100%;
+    }
+    #gallery .grid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    iframe,#video-presentation{
+        width: 400px !important;
+        height: 300px !important;
+    }
+
+    #contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #carte{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #header-logo{
+        max-width: 80px;
+    }
+    #header nav{
+        gap: 12px;
+    }
+
+    #header nav a{
+        font-size: 1em;
+    }
+    #hero{
+        border-radius: 0;
+    }
+    section{
+        max-width: 100%;
+        margin: 5%;
+        padding: 20px;
+    }
+
+    #section3{
+        padding: 0;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+    
+    #presentation-logo, #nathalie{
+        max-width: 100%;
+    }
+    #presentation-container-logo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    iframe,#video-presentation{
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+

@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="galerie.css" />
     <title>Galerie</title>
-</head>
-<body>
-  <header>
-    <div id="header">
-      <a href="./index.html" id="header-container-logo" class="pulse">
-      <img
-        id="header-logo"
-        src="./assets/img/logomark.png"
-        alt="logomark de l'entreprise Nathalie Jochum"
-      />        
-      </a>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <a href="./index.html" id="header-container-logo" class="pulse">
+          <img
+            id="header-logo"
+            src="./assets/img/logomark.png"
+            alt="logomark de l'entreprise Nathalie Jochum"
+          />
+        </a>
+        <nav>
+          <a href="./index.html">Accueil</a>
+          <a href="./galerie.html">Galerie</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-      <nav>
-        <a href="./index.html">Accueil</a>
-        <a href="./galerie.html">Galerie</a>
-        <a href="./contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-</body>
+    <main>
+      <div id="gallery">
+        <h1>Galerie</h1>
+        <div class="grid">
+          <img src="./assets/img/moi.jpg" alt="Nathalie Jochum" />
+          <img
+            src="./assets/img/cabinet.jpg"
+            alt="Cabinet de Nathalie Jochum"
+          />
+          <!-- Ajouter d'autres images si nécessaire -->
+        </div>
+      </div>
+      <div id="video">
+        <h2>Découvrez La Trame en Vidéo</h2>
+        <iframe
+          id="video-presentation"
+          src="https://www.youtube.com/embed/ns_JJ8z4FTQ?"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </main>
+  </body>
 </html>

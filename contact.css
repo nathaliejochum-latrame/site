@@ -1,0 +1,15 @@
+h1{
+    margin: 20px 0;
+}
+
+article{
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+#container-carte{
+    display: flex;
+align-items: center;
+justify-content: center;
+}

@@ -17,3 +17,22 @@ showNumberBtn.addEventListener('click', () => {
     showNumberBtn.textContent = 'Cacher le numéro de téléphone';
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger");
+  const nav = document.querySelector("nav");
+  const overlay = document.querySelector("#overlay");
+
+  // Ouvrir/fermer le menu et overlay
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("show");
+    overlay.classList.toggle("active");
+  });
+
+  // Fermer le menu en cliquant sur l'overlay
+  overlay.addEventListener("click", () => {
+    nav.classList.remove("show");
+    overlay.classList.remove("active");
+  });
+});
+
+
