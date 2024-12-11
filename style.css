@@ -27,15 +27,23 @@ h6 {
 }
 
 #header-container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #9d6faf5b;
-  border-radius: 90px;
+  border-radius: 50%; /* Assure un cercle parfait */
+  width: 140px; /* Ajustez pour correspondre à l'image */
+  height: 140px; /* Idem pour le conteneur */
   margin-bottom: 15px;
   animation: pulse 2.5s infinite;
+  overflow: hidden; /* Empêche tout dépassement de l'image */
 }
 
 #header-logo {
-  max-width: 120px;
+  max-width: 120px; /* Taille du logo */
+  height: auto; /* Conserve les proportions */
 }
+
 
 #header nav {
   display: flex;
