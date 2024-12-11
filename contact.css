@@ -4,12 +4,25 @@ h1{
 
 article{
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+article div{
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
+
 #container-carte{
-    display: flex;
+display: flex;
 align-items: center;
 justify-content: center;
+width: 100%;
+}
+
+#carte{
+    width: 30%;
 }
