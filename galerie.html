@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explorez la galerie de Nathalie Jochum, thérapeute en soin vibratoire La Trame à Metz. Découvrez des images de son cabinet, de son travail et une vidéo de présentation du soin La Trame." />
+    <meta name="robots" content="index, follow" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +15,7 @@
     <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="galerie.css" />
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
-    <title>Galerie</title>
+    <title>Galerie | Nathalie Jochum - Soin Vibratoire La Trame à Metz</title>
   </head>
   <body>
     <header>
@@ -22,7 +24,7 @@
           <img
             id="header-logo"
             src="./assets/img/logomark2.png"
-            alt="logomark de l'entreprise Nathalie Jochum"
+            alt="Logo de l'entreprise Nathalie Jochum, spécialiste en soin vibratoire La Trame"
           />
         </a>
         <nav>
@@ -34,29 +36,42 @@
     </header>
 
     <main>
-      <div id="gallery">
-        <h1>Galerie</h1>
+      <section id="gallery">
+        <h1>Galerie de Nathalie Jochum</h1>
+        <p>Explorez une sélection d'images qui illustrent mon activité de thérapeute en soin vibratoire La Trame à Metz.</p>
         <div class="grid">
-          <img src="./assets/img/moi.jpg" alt="Nathalie Jochum" />
+          <img
+            src="./assets/img/moi.jpg"
+            alt="Nathalie Jochum, thérapeute spécialisée en soin vibratoire La Trame, en portrait"
+            loading="lazy"
+          />
           <img
             src="./assets/img/cabinet.jpg"
-            alt="Cabinet de Nathalie Jochum"
+            alt="Le cabinet de Nathalie Jochum à Metz, dédié au soin vibratoire La Trame"
+            loading="lazy"
           />
           <!-- Ajouter d'autres images si nécessaire -->
         </div>
-      </div>
-      <div id="video">
+      </section>
+
+      <section id="video">
         <h2>Découvrez La Trame en Vidéo</h2>
+        <p>Apprenez-en plus sur la pratique du soin vibratoire La Trame à travers cette vidéo de présentation, qui vous permettra de mieux comprendre cette approche unique et bénéfique pour le bien-être.</p>
         <iframe
           id="video-presentation"
-          src="https://www.youtube.com/embed/ns_JJ8z4FTQ?"
-          title="YouTube video player"
+          src="https://www.youtube.com/embed/ns_JJ8z4FTQ"
+          title="Présentation du soin vibratoire La Trame"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         >
         </iframe>
-      </div>
+      </section>
     </main>
+
+    <footer>
+      <p>&copy; 2024 Nathalie Jochum - Soin Vibratoire La Trame à Metz. Conçu et développé par <a href="https://ikaya-creation.fr/" target="_blank" rel="noopener noreferrer">Ikaya Création</a>.</p>
+    </footer>
+    
   </body>
 </html>

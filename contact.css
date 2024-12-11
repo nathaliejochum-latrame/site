@@ -1,19 +1,22 @@
-h1{
-    margin: 20px 0;
+#intro{
+    width: 85%;
+    margin-top: 50px;
 }
+
 
 article{
     margin-bottom: 20px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-article div{
-    text-align: center;
+    article div{
+    text-align: left;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;width: 85%;
 }
 
 #container-carte{
@@ -24,5 +27,6 @@ width: 100%;
 }
 
 #carte{
-    width: 30%;
+    width: 100%;
+    max-width: 600px;
 }

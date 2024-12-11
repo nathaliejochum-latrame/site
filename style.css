@@ -16,7 +16,9 @@ h6 {
   font-style: normal;
   color: #9d6faf;
 }
-
+.highlight {
+  color: #9d6faf;
+}
 #header {
   width: 100%;
   display: flex;
@@ -43,7 +45,6 @@ h6 {
   max-width: 120px; /* Taille du logo */
   height: auto; /* Conserve les proportions */
 }
-
 
 #header nav {
   display: flex;
@@ -157,7 +158,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-
 /* Section Qui suis-je */
 section article h2 {
   color: #9d6faf;
@@ -174,4 +174,15 @@ em {
 }
 .background {
   background-color: #9d6faf5b;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #9d6faf;
 }
