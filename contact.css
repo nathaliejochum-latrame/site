@@ -1,32 +1,35 @@
-#intro{
-    width: 85%;
-    margin-top: 50px;
+main {
+  padding: 50px;
+  background-color: #9d6faf5b;
+}
+section{
+    margin-bottom: 0;
+}
+#intro {
+  margin-top: 50px;
 }
 
-
-article{
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
 }
 
-    article div{
-    text-align: left;
-    display: flex;
-    flex-direction: column;width: 85%;
+article div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
-#container-carte{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%;
+#container-carte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#carte{
-    width: 100%;
-    max-width: 600px;
+#carte {
+  max-height: 400px;
+  width: 40%;
+  object-fit: cover;
 }

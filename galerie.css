@@ -1,13 +1,19 @@
 
+main {
+  padding: 50px;
+  background-color: #9d6faf5b;
+}
+
 /* Gallery Styles */
 #gallery {
   text-align: center;
   margin: 20px auto;
-  padding: 20px;
+  padding:30px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 90%;
 }
 
 #gallery h1 {
@@ -43,6 +49,8 @@
   justify-content: center;
   align-items: center;
   margin: 40px 0;
+  width: 90%;
+  padding: 30px 20px;
 }
 
 #video h2 {
